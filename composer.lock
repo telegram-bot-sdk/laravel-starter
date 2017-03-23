@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ac565b3c5881f17e7d91147133a7f07",
+    "content-hash": "c1c2fcaf3aafb1a21b4a08032312d3a2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -332,12 +332,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/irazasyed/telegram-bot-sdk.git",
-                "reference": "d387fc770b1600ef49d05cae16c27370078e8221"
+                "reference": "6c1d5f80c43556f2ab6a2e37c8c2f1a7d92a3e06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irazasyed/telegram-bot-sdk/zipball/d387fc770b1600ef49d05cae16c27370078e8221",
-                "reference": "d387fc770b1600ef49d05cae16c27370078e8221",
+                "url": "https://api.github.com/repos/irazasyed/telegram-bot-sdk/zipball/6c1d5f80c43556f2ab6a2e37c8c2f1a7d92a3e06",
+                "reference": "6c1d5f80c43556f2ab6a2e37c8c2f1a7d92a3e06",
                 "shasum": ""
             },
             "require": {
@@ -387,7 +387,7 @@
                 "telegram php",
                 "telegram sdk"
             ],
-            "time": "2016-12-06 18:09:42"
+            "time": "2017-03-23 14:13:43"
         },
         {
             "name": "jakub-onderka/php-console-color",
