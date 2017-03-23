@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "irazasyed/telegram-bot-laravel-starter",
+    "description": "Telegram Bot SDK Starter for Laravel",
+    "keywords": ["telegram bot laravel", "laravel", "telegram-bot-sdk", "telegram-bot-laravel-starter", "telegram bot laravel boilerplate"],
     "license": "MIT",
     "type": "project",
     "require": {
