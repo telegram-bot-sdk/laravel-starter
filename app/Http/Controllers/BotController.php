@@ -28,7 +28,7 @@ class BotController extends Controller
      */
     public function getUpdates()
     {
-        $updates = $this->telegram->getUpdates();
+        $updates = $this->telegram->getUpdates()->getResult();
 
         // Do something with the updates
     }

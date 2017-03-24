@@ -332,12 +332,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/irazasyed/telegram-bot-sdk.git",
-                "reference": "6c1d5f80c43556f2ab6a2e37c8c2f1a7d92a3e06"
+                "reference": "2c95545999d9e0ce980c01847d7d652a10f88541"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/irazasyed/telegram-bot-sdk/zipball/6c1d5f80c43556f2ab6a2e37c8c2f1a7d92a3e06",
-                "reference": "6c1d5f80c43556f2ab6a2e37c8c2f1a7d92a3e06",
+                "url": "https://api.github.com/repos/irazasyed/telegram-bot-sdk/zipball/2c95545999d9e0ce980c01847d7d652a10f88541",
+                "reference": "2c95545999d9e0ce980c01847d7d652a10f88541",
                 "shasum": ""
             },
             "require": {
@@ -387,7 +387,7 @@
                 "telegram php",
                 "telegram sdk"
             ],
-            "time": "2017-03-23 14:13:43"
+            "time": "2017-03-24 22:21:16"
         },
         {
             "name": "jakub-onderka/php-console-color",
