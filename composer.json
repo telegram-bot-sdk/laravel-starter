@@ -1,19 +1,24 @@
 {
-    "name": "laravel/laravel",
+    "name": "telegram-bot-sdk/laravel-starter",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Telegram Bot SDK Laravel Starter Project",
     "keywords": [
-        "framework",
-        "laravel"
+        "laravel",
+        "laravel starter",
+        "laravel telegram bot",
+        "telegram bot sdk",
+        "telegram bot laravel starter"
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.4",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "telegram-bot-sdk/laravel": "^4.0@dev",
+        "telegram-bot-sdk/telegram-bot-sdk": "^4.0@dev"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

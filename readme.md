@@ -1,25 +1,52 @@
-# Telegram Bot SDK - Laravel Starter
+# Laravel Starter for Telegram Bot SDK 
 
-> This repository is an example Laravel application to start developing Telegram Bot using [telegram-bot-sdk](https://github.com/irazasyed/telegram-bot-sdk). 
+> Laravel starter for [Telegram Bot SDK](https://github.com/telegram-bot-sdk/telegram-bot-sdk).
+>
+> It comes with sample code to get you started developing Telegram Bots in Laravel. 
 
-### Built with 
-- Laravel 5.4
-- [telegram-bot-sdk](https://github.com/irazasyed/telegram-bot-sdk) 3.0 (Develop Branch)
+## Features
+
+- Multi-Bots.
+- Webhook.
+- Updates Polling.
+- Commands.
+- Event Listener.
+
+## Built with 
+
+- [Laravel](https://laravel.com) 7.x.
+- [Telegram Bot SDK](https://github.com/telegram-bot-sdk/telegram-bot-sdk) 4.x.
+- [Telegram Bot SDK Laravel](https://github.com/telegram-bot-sdk/laravel) 4.x.
 
 ## Installation
 
-1. Create a new bot project using this boilerplate.
+1. Create a new bot project using this starter project.
 
 ```bash
-composer create-project irazasyed/telegram-bot-laravel-starter my_new_bot
+composer create-project telegram-bot-sdk/laravel-starter mybot
 ```
 
-2. Install [Laravel Valet](https://laravel.com/docs/valet) and use `valet share` to retrieve a HTTPS URL that you can use it to setup a webhook with Telegram for testing. The predefined route is `/bot/webhook`.
+2. Install [Laravel Valet](https://laravel.com/docs/valet) and use `valet secure && valet share` to retrieve a HTTPS URL that you can use it to setup a webhook with Telegram for testing.
 
-3. Edit your `.env` file and set your bot token in `TELEGRAM_BOT_TOKEN=`
+3. Edit your `.env` file and set your bot token in `TELEGRAM_BOT_TOKEN=` && ngrok hostname in `TELEGRAM_WEBHOOK_DOMAIN=` (Ex: `randomstring.ap.ngrok.io`)
 
-4. Modify your bot logic in `app/Controllers/BotController.php` and/or `routes/bot.php`.
+4. Setup the webhook with Telegram by firing the artisan command `php artisan telegram:webhook:setup`.
 
-5. Build some awesome bots and don't forget to list them on our [bots showcase](https://github.com/irazasyed/telegram-bot-sdk/tree/develop#are-you-using-telegram-bot-sdk).
+4. Explore `app` directory for some examples.
 
-> Read [docs](https://telegram-bot-sdk.readme.io/docs) to know more about the features and other info.
+5. Build awesome bots and don't forget to list them on our [Awesome Telegram Bots](https://github.com/telegram-bot-sdk/awesome-telegram-bots) list.
+
+> Read [docs](https://telegram-bot-sdk.readme.io/docs) to learn more about Telegram Bot SDK.
+
+## Webhook
+
+If you've fired the above webhook setup artisan command, then a webhook will automatically be set with Telegram.
+
+The webhook URL looks like: `https://YOUR_DOMAIN/telegram/YOUR_BOT_TOKEN/YOUR_BOT_NAME`
+
+Incoming webhook requests from Telegram will automatically be verified, processed, and acknowledged to Telegram for you.
+You can listen to various events the SDK dispatches to process inbound updates. You'll find an example in this repo as you explore.
+
+## License
+
+The Laravel Starter is open-sourced software licensed under the MIT license.
