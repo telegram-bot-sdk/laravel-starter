@@ -1,8 +1,8 @@
-# Laravel Starter for Telegram Bot SDK 
+# Laravel Starter for Telegram Bot SDK
 
 > Laravel starter for [Telegram Bot SDK](https://github.com/telegram-bot-sdk/telegram-bot-sdk).
 >
-> It comes with sample code to get you started developing Telegram Bots in Laravel. 
+> It comes with sample code to get you started developing Telegram Bots in Laravel.
 
 ## Features
 
@@ -12,9 +12,9 @@
 - Commands.
 - Event Listener.
 
-## Built with 
+## Built with
 
-- [Laravel](https://laravel.com) 7.x.
+- [Laravel](https://laravel.com) 8.x.
 - [Telegram Bot SDK](https://github.com/telegram-bot-sdk/telegram-bot-sdk) 4.x.
 - [Telegram Bot SDK Laravel](https://github.com/telegram-bot-sdk/laravel) 4.x.
 
