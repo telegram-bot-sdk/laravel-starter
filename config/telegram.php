@@ -29,9 +29,6 @@ return [
      *
      * - name: The *personal* name you would like to refer to your bot as.
      *
-     *       - username: Your Telegram Bot's Username.
-     *                   Example: (string) 'BotFather'.
-     *
      *       - token:    Your Telegram Bot Token.
      *                   Refer for more details: https://core.telegram.org/bots#botfather
      *                   Example: (string) '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'.
@@ -49,7 +46,6 @@ return [
 
     'bots' => [
         'default' => [
-            'username' => 'TelegramBot',
             'token'    => env('TELEGRAM_BOT_TOKEN', 'YOUR-BOT-TOKEN'),
 
             'commands' => [
@@ -75,7 +71,6 @@ return [
         ],
 
         'second' => [
-            'username' => 'MySecondBot',
             'token'    => '123456:abc',
 
             // Custom config used with the "telegram:webhook-setup" artisan command.
