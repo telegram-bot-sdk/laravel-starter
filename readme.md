@@ -1,4 +1,8 @@
-# Laravel Starter for Telegram Bot SDK
+# [ARCHIVED] Laravel Starter for Telegram Bot SDK
+
+> **This repo has been archived in favor of the scaffolding feature in our Laravel package.**
+
+-------------------------------------------------------------
 
 > Laravel starter for [Telegram Bot SDK](https://github.com/telegram-bot-sdk/telegram-bot-sdk).
 >
